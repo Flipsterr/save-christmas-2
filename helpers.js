@@ -15,3 +15,9 @@ export function randomArray(len, n) {
 function randomInt(n) {
     return Math.floor(Math.random() * (n + 1))
 }
+
+export function swap(a, i, p) {
+    let temp = a[i]
+    a[i] = a[p]
+    a[p] = temp
+}
